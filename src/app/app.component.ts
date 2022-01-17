@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Task } from './task/task';
 import { CdkDragDrop, transferArrayItem } from '@angular/cdk/drag-drop';
 import { MatDialog } from '@angular/material/dialog';
+import { TaskDialogComponent, TaskDialogResult } from './task-dialog/task-dialog.component';
 
 @Component({
   selector: 'app-root',
