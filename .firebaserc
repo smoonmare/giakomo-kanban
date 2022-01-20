@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "giakomo-kaban": {
+      "hosting": {
+        "giakomo-kanban": [
+          "giakomo-kaban"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "giakomo-kaban"
+  }
+}

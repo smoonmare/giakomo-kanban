@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "giakomo-kanban:build:production",
+            "firebaseProject": "giakomo-kaban",
+            "firebaseHostingSite": "giakomo-kaban"
+          }
         }
       }
     }
